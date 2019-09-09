@@ -142,7 +142,7 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 
         jRadioButton4.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup2.add(jRadioButton4);
-        jRadioButton4.setText("Maximisar Score");
+        jRadioButton4.setText("Maximizar Score");
         jRadioButton4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jRadioButton4.setBorderPainted(true);
 
@@ -152,7 +152,7 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
         jRadioButton5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jRadioButton5.setBorderPainted(true);
 
-        jLabel3.setText("Tam. Poblacion Inicial: ");
+        jLabel3.setText("Tam. Población Inicial: ");
 
         jLabel4.setText("Generaciones: ");
 
@@ -229,7 +229,7 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 
         jRadioButton2.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup1.add(jRadioButton2);
-        jRadioButton2.setText("Genetico");
+        jRadioButton2.setText("Genético");
         jRadioButton2.setBorder(null);
         jRadioButton2.setBorderPainted(true);
         jRadioButton2.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -264,7 +264,7 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
                 .addComponent(jRadioButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jRadioButton2)
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addContainerGap(64, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -411,7 +411,7 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPane1))
-                .addContainerGap(13, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

@@ -55,6 +55,7 @@
   <SyntheticProperties>
     <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -93,7 +94,7 @@
                   <Component id="jPanel2" max="32767" attributes="0"/>
                   <Component id="jScrollPane1" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace pref="13" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -318,7 +319,7 @@
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="buttonGroup2"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Maximisar Score"/>
+                    <Property name="text" type="java.lang.String" value="Maximizar Score"/>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                         <EtchetBorder/>
@@ -346,7 +347,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel3">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Tam. Poblacion Inicial: "/>
+                    <Property name="text" type="java.lang.String" value="Tam. Poblaci&#xf3;n Inicial: "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel4">
@@ -408,7 +409,7 @@
                           <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="56" max="32767" attributes="0"/>
+                          <EmptySpace pref="64" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -458,7 +459,7 @@
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="buttonGroup1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Genetico"/>
+                    <Property name="text" type="java.lang.String" value="Gen&#xe9;tico"/>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="null"/>
                     </Property>
