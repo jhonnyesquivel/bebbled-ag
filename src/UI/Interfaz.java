@@ -28,7 +28,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  *
- * @author Jhonny
+ * @author Jhonny Esquivel
  */
 public class Interfaz extends javax.swing.JFrame implements ActionListener {
 
@@ -230,6 +230,7 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
         jRadioButton2.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup1.add(jRadioButton2);
         jRadioButton2.setText("Genético");
+        jRadioButton2.setActionCommand("Genetico");
         jRadioButton2.setBorder(null);
         jRadioButton2.setBorderPainted(true);
         jRadioButton2.addChangeListener(new javax.swing.event.ChangeListener() {
